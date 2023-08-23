@@ -1,0 +1,25 @@
+{
+	"useTabs": true,
+	"printWidth": 120,
+	"endOfLine": "auto",
+	"overrides": [
+		{
+			"files": "*.ts,*.js,*.mjs",
+			"options": {}
+		},
+		{
+			"files": "*.scss",
+			"options": {
+				"parser": "scss",
+				"singleQuote": true,
+				"printWidth": 200
+			}
+		},
+		{
+			"files": "*.md",
+			"options": {
+				"printWidth": 200
+			}
+		}
+	]
+}
